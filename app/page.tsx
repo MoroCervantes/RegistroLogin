@@ -7,16 +7,15 @@ export default function Home() {
       <ul>
 
         <li>
-          <link href="/">
-            <a>Home</a>
-          </link>
-
+          <Link href="/">
+            Home
+          </Link>
         </li>
 
         <li>
-          <link href="/test">
-            <a>Test</a>
-          </link>
+          <Link href="/pages/test">
+            Test
+          </Link>
         </li>
 
       </ul>
