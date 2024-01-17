@@ -1,6 +1,7 @@
 export default function test(){
     return <div>
-        Pagina de prueba
+        Página de prueba
     </div>
     
 }
+
