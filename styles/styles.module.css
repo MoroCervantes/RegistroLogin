@@ -1,6 +1,10 @@
-.navbar {
-    background-color: rgb(0, 243, 162);
-    padding: 1px 10px;
+.container{
+    padding-top: 0px;
+}
+
+.navbar{
+    background-color: rgb(2, 31, 126);
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,42 +12,40 @@
 
 
 .navbarBrand{
-    color: rgb(0, 0, 0);
+    color: #fff;
     font-size: 1.5rem;
     text-decoration: none;
 
 }
 
-.nvbarNav {
+.navbarNav{
     list-style: none;
     display: flex;
 }
 
-.navItem { 
-    margin-left: 40px;
+.navItem{
+    margin-left: 20px;
 }
 
-
-.navLink {
-    color: rgb(0, 0, 0);
+.navLink{
+    color: #fff;
     text-decoration: none;
     font-size: 1rem;
 
 }
 
-.content {
+.content{
     text-align: center;
     margin-top: 50px;
 }
 
-.footer { 
-    background-color: rgb(0, 248, 103);
-    color: rgb(0, 0, 0);
+.footer{
+    background-color: rgb(0, 13, 129);
     padding: 20px 0;
     text-align: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width:100%;
 }
 
 .centeredImage {
