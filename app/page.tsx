@@ -2,6 +2,7 @@ import Link from "next/link"
 import Head from "next/head"
 import styles from "@/styles/styles.module.css";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -34,12 +35,18 @@ export default function Home() {
       {/*Contenido principal */}
 
       <div className={styles.content}>
-        <h1>Hola mundo</h1>
+      <h1>Inteligencia Artificial</h1>
+      <Image src="/ia.jpg" alt="Descripción de la imagen" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto' }} width={500} height={300}/>
+    
+     
+      <h4 style={{ textAlign: 'justify' }}>La inteligencia artificial (IA) es un campo de la informática que busca desarrollar sistemas capaces de realizar tareas inteligentes, como el aprendizaje, la percepción y la toma de decisiones. Esto incluye áreas como el aprendizaje automático, redes neuronales artificiales, procesamiento del lenguaje natural, visión por computadora y robótica. La ética en la IA también es crucial, considerando preocupaciones sobre transparencia, equidad y privacidad. La IA es un campo en constante evolución con aplicaciones en diversos sectores.</h4>
+       
       </div>
 
       {/*Componentes footer*/}
 
       <Footer />
+  
 
     </div>
     
