@@ -45,6 +45,8 @@ export default function Home() {
 
       {/*Componentes footer*/}
       <Footer />
+      
+      {/*Componentes Counter*/}
       <Counter/>
     </div>
     

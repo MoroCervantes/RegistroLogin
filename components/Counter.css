@@ -1,0 +1,22 @@
+.counterButton, .resetButton {
+    padding: 2px 20px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.counterButton {
+    background-color: #3498db; 
+    color: #fff; 
+}
+
+.resetButton {
+    background-color: #e74c3c; 
+    color: #fff; 
+}
+
+.counterButton:active, .resetButton:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
