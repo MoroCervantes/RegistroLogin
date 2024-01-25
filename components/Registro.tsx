@@ -1,4 +1,4 @@
-// Registro.jsx
+"use client"
 import { useState } from "react";
 import formStyles from "@/styles/formStayles.module.css";
 import Link from "next/link";
