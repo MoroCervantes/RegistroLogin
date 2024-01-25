@@ -3,7 +3,7 @@ import { useState } from "react";
 import formStyles from "@/styles/formStayles.module.css";
 import Link from "next/link"
 
-const Login = ({ onClose }) => {
+const Login = ({ onClose }: any) => {
     const [email,setEmail] = useState('')
     const [password,setPasword] = useState('')
 
